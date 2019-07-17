@@ -59,7 +59,7 @@ class MainController extends Controller
         // }
         // else {
         //     $req->session()->flush();
-        //     return redirect('/register');
+        return redirect('/login');
         // }
     }
 }
