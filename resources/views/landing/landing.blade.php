@@ -17,7 +17,8 @@
                     doloribus voluptatem quo explicabo minima fugiat.</p>
             </section>
             <div class="mt-5">
-                <a class="btn btn-lg btn-warning text-light shadow text-decoration-none" href="/register">Join to Our Program</a>
+                <a class="btn btn-lg btn-warning text-light shadow text-decoration-none" href="/register">Join to Our
+                    Program</a>
                 <a class="btn btn-lg btn-outline-warning border border-warning shadow text-decoration-none" href="">Our
                     Program</a>
             </div>
@@ -34,7 +35,7 @@
                     <img class="img-fluid" src="asset/03-icon/ic_line.png" alt="">
                 </div>
                 <div class="row justify-content-center mt-4">
-                    <h1>For Talent</h1> 
+                    <h1>For Talent</h1>
                 </div>
             </div>
         </div>
@@ -45,7 +46,8 @@
                         <img id="course-img" class="img-fluid" src="asset/03-icon/ic_bacelor_white.png" alt="">
                         <div class="card-body text-light">
                             <h5 class="card-title">All Majors</h5>
-                            <p class="overflow-auto text-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                            <p class="overflow-auto text-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Ipsa
                                 itaque
                                 quis voluptate possimus
                                 numquam tenetur, quia facere laboriosam expedita, obcaecati veritatis incidunt odio
@@ -201,8 +203,8 @@
     <div class="landing-4 row justify-content-center p-5">
         <div class="col-5">
             <div class="row align-items-center justify-content-center">
-                
-            <img class="w-75" src="/asset/04-image/img_for_hiring.png" alt="" srcset="">
+
+                <img class="w-75" src="/asset/04-image/img_for_hiring.png" alt="" srcset="">
             </div>
         </div>
         <div class="col-7 mt-4">
@@ -256,9 +258,9 @@
     @include('layout.footer')
 
     @if ($new) {
-       <script>
-           alert('Please wait for verification');
-       </script> 
+    <script>
+        alert('Please wait for verification');
+    </script>
     }
     @endif
 
@@ -296,7 +298,6 @@
         .landing-6 {
             height: 10vh;
         }
-
     </style>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.9/SmoothScroll.js"></script>

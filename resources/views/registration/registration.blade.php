@@ -17,27 +17,27 @@
             <form class="mt-4" method="post" action="/register/insert">
                 {{ csrf_field() }}
                 <div class="form-group">
-                    <input id="" class="form-control" type="text" name="email" placeholder="Email">
+                    <input id="" class="form-control" type="text" name="email" placeholder="Email" required>
                 </div>
                 <div class="form-group">
-                    <input id="" class="form-control" type="text" name="name" placeholder="Name">
+                    <input id="" class="form-control" type="text" name="name" placeholder="Name"  required>
                 </div>
                 <div class="form-group">
-                    <input id="" class="form-control" type="password" name="password" placeholder="Password">
+                    <input id="" class="form-control" type="password" name="password" placeholder="Password"  required>
                 </div>
                 <div class="form-group">
-                    <input id="" class="form-control" type="password" name="r-password" placeholder="Rewrite password">
+                    <input id="" class="form-control" type="password" name="r-password" placeholder="Rewrite password"  required>
                 </div>
                 <div class="row form-group">
                     <div class="col">
-                        <input id="" class="form-control" type="text" name="place_birth" placeholder="Place of birth">
+                        <input id="" class="form-control" type="text" name="place_birth" placeholder="Place of birth"  required>
                     </div>
                     <div class="col">
-                        <input class="form-control" type="date" name="date_birth" id="" placeholder="Birth date">
+                        <input class="form-control" type="date" name="date_birth" id="" placeholder="Birth date"  required>
                     </div>
                 </div>
                 <div class="form-group">
-                    <input id="" class="form-control" type="text" name="school" placeholder="School">
+                    <input id="" class="form-control" type="text" name="school" placeholder="School"  required>
                 </div>
                 <fieldset>
                     <div class="row"> 
