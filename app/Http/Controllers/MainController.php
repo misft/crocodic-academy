@@ -54,12 +54,12 @@ class MainController extends Controller
         //     ])
         // ->first();
 
-        if ($email) {
-            return redirect('/home');
-        }
-        else {
-            $req->session()->flush();
-            return redirect('/register');
-        }
+        // if ($email) {
+        //     return redirect('/home');
+        // }
+        // else {
+        //     $req->session()->flush();
+        //     return redirect('/register');
+        // }
     }
 }
