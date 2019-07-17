@@ -22,11 +22,8 @@ class MainController extends Controller
             'interest' => $req -> interest,
             'photo' => 'dsaafs'
         ]);
-        echo "
-            <script>
-                alert('Silahkan menunggu verifikasi dari admin');
-            </script>
-        ";
+
+        $req->session()->put('new');
         return redirect('/landing');
     }
 
@@ -43,8 +40,10 @@ class MainController extends Controller
         return view('login.login');
     }
 
-    public function pageLanding() {
-        return view('landing.landing');
+    public function pageLanding(Request $req) {
+        $new = $req->session()->get('key');
+
+        return view('landing.landing', ['new'=>$new]);
     }
 
     public function login(Request $req) {
