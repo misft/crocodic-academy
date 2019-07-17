@@ -255,13 +255,13 @@
 
     @include('layout.footer')
 
-    @if ($key) {
+    @if ($new) {
        <script>
            alert('Please wait for verification');
        </script> 
     }
     @endif
-    
+
     <style>
         .landing-1 {
             height: 125vh;
