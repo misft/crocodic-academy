@@ -265,39 +265,7 @@
     @endif
 
     <style>
-        .landing-1 {
-            height: 125vh;
-            background-image: url('/asset/01-background/bg_banner.png');
-            background-size: cover;
-        }
-
-        .landing-2 {
-            height: auto;
-            background-image: url('/asset/01-background/bg_bottom.png');
-            background-size: cover;
-        }
-
-        .landing-3 {
-            height: 150vh;
-            background-image: url('/asset/01-background/bg_timeline.png');
-            background-size: cover;
-        }
-
-        .landing-4 {
-            height: 125vh;
-            background-image: url('/asset/01-background/bg_for_hiring.png');
-            background-size: cover;
-            background-size: 50%;
-            background-repeat: no-repeat;
-        }
-
-        .landing-5 {
-            height: 100vh;
-        }
-
-        .landing-6 {
-            height: 10vh;
-        }
+        
     </style>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.9/SmoothScroll.js"></script>

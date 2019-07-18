@@ -6,16 +6,13 @@ use Illuminate\Database\Eloquent\Model;
 
 class Members extends Model
 {
-    protected $table = 'members';
+    protected $table = 'siswa';
     
     protected $fillable = [
         'email',
-        'name',
+        'nama',
         'password',
-        'school',
-        'date_birth',
-        'place_birth',
-        'interest',
-        'photo',
+        'birth',
+        'id_bidang',
     ];
 }

@@ -23,3 +23,5 @@ Route::get('/home', 'MainController@pageHome');
 
 Route::get('/login', 'MainController@pageLogin');
 Route::get('/login/user', 'MainController@login');
+
+Route::get('/course/{id}', 'MainController@pageCourse');
