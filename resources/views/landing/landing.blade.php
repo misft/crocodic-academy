@@ -17,14 +17,14 @@
                     doloribus voluptatem quo explicabo minima fugiat.</p>
             </section>
             <div class="mt-5">
-                <a class="btn btn-lg btn-warning text-light shadow text-decoration-none" href="/register">Join to Our
+                <a class="btn btn-lg btn-warning text-light shadow text-decoration-none" href="register">Join to Our
                     Program</a>
                 <a class="btn btn-lg btn-outline-warning border border-warning shadow text-decoration-none" href="">Our
                     Program</a>
             </div>
         </div>
         <div class="col-5">
-            <img class="img-fluid" src="/asset/04-image/img_illustration_banner.png" alt="" srcset="">
+            <img class="img-fluid" src="asset/04-image/img_illustration_banner.png" alt="" srcset="">
         </div>
     </div>
 
@@ -72,7 +72,7 @@
                 </div>
                 <div class="col-4">
                     <div class="card p-4">
-                        <img id="course-img" class="card-img-top" src="/asset/03-icon/ic_deadline.png" alt="" srcset="">
+                        <img id="course-img" class="card-img-top" src="asset/03-icon/ic_deadline.png" alt="" srcset="">
                         <div class="card-body">
                             <h5 class="card-title">Create Your First Android App</h5>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa itaque quis voluptate
@@ -89,7 +89,7 @@
             <div class="row p-5 justify-content-center">
                 <div class="col-4">
                     <div class="card p-4">
-                        <img id="course-img" class="card-img-top" src="/asset/03-icon/ic_job.png" alt="" srcset="">
+                        <img id="course-img" class="card-img-top" src="asset/03-icon/ic_job.png" alt="" srcset="">
                         <div class="card-body">
                             <h5 class="card-title">Free</h5>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa itaque quis voluptate
@@ -102,7 +102,7 @@
                 </div>
                 <div class="col-4">
                     <div class="card p-4">
-                        <img id="course-img" class="card-img-top" src="/asset/03-icon/ic_salary.png" alt="" srcset="">
+                        <img id="course-img" class="card-img-top" src="asset/03-icon/ic_salary.png" alt="" srcset="">
                         <div class="card-body">
                             <h5 class="card-title">Create Your First Android App</h5>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa itaque quis voluptate
@@ -130,7 +130,7 @@
             <div class="col">
                 <div class="row mt-5 justify-content-center">
                     <div class="col-2">
-                        <img src="/asset/03-icon/ic_indicator.png" alt="">
+                        <img src="asset/03-icon/ic_indicator.png" alt="">
                     </div>
                     <div class="col-9 border border-white bg-white shadow">
                         <div class="row">
@@ -147,7 +147,7 @@
                 </div>
                 <div class="row mt-5 justify-content-center">
                     <div class="col-2">
-                        <img src="/asset/03-icon/ic_indicator.png" alt="">
+                        <img src="asset/03-icon/ic_indicator.png" alt="">
                     </div>
                     <div class="col-9 border border-white bg-white shadow">
                         <div class="row">
@@ -164,7 +164,7 @@
                 </div>
                 <div class="row mt-5 justify-content-center">
                     <div class="col-2">
-                        <img src="/asset/03-icon/ic_indicator.png" alt="">
+                        <img src="asset/03-icon/ic_indicator.png" alt="">
                     </div>
                     <div class="col-9 border border-white bg-white shadow">
                         <div class="row">
@@ -181,7 +181,7 @@
                 </div>
                 <div class="row mt-5 justify-content-center">
                     <div class="col-2">
-                        <img src="/asset/03-icon/ic_indicator.png" alt="">
+                        <img src="asset/03-icon/ic_indicator.png" alt="">
                     </div>
                     <div class="col-9 border border-white bg-white shadow">
                         <div class="row">
@@ -204,13 +204,13 @@
         <div class="col-5">
             <div class="row align-items-center justify-content-center">
 
-                <img class="w-75" src="/asset/04-image/img_for_hiring.png" alt="" srcset="">
+                <img class="w-75" src="asset/04-image/img_for_hiring.png" alt="" srcset="">
             </div>
         </div>
         <div class="col-7 mt-4">
             <div class="col">
                 <div class="row justify-content-center ">
-                    <img src="/asset/03-icon/ic_line.png" alt="" srcset="">
+                    <img src="asset/03-icon/ic_line.png" alt="" srcset="">
                 </div>
                 <div class="row justify-content-center mt-4">
                     <h1>For Hiring Partner</h1>
@@ -220,19 +220,19 @@
                 <div class="row mt-5 mb-5 justify-content-center">
                     <div class="col-3">
                         <div class="row justify-content-center">
-                            <img src="/asset/03-icon/ic_human_resource.png" alt="">
+                            <img src="asset/03-icon/ic_human_resource.png" alt="">
                         </div>
                         <h6 class="text-center mt-3">Guaranteed to get quality HR</h6>
                     </div>
                     <div class="col-3">
                         <div class="row  justify-content-center">
-                            <img src="/asset/03-icon/ic_calendar.png" alt="">
+                            <img src="asset/03-icon/ic_calendar.png" alt="">
                         </div>
                         <h6 class="text-center mt-3">Free training for 3 months</h6>
                     </div>
                     <div class="col-3">
                         <div class="row justify-content-center">
-                            <img src="/asset/03-icon/ic_dedicated_person.png" alt="">
+                            <img src="asset/03-icon/ic_dedicated_person.png" alt="">
                         </div>
                         <h6 class="text-center mt-3">Dedicated person</h6>
                     </div>
@@ -240,13 +240,13 @@
                 <div class="row mt-5 mb-5 justify-content-center">
                     <div class="col-3">
                         <div class="row justify-content-center">
-                            <img src="/asset/03-icon/ic_time.png" alt="">
+                            <img src="asset/03-icon/ic_time.png" alt="">
                         </div>
                         <h6 class="text-center mt-3">Can work full time</h6>
                     </div>
                     <div class="col-3">
                         <div class="row justify-content-center">
-                            <img src="/asset/03-icon/ic_id_card.png" alt="">
+                            <img src="asset/03-icon/ic_id_card.png" alt="">
                         </div>
                         <h6 class="text-center mt-3">Maximum internship 3 months</h6>
                     </div>

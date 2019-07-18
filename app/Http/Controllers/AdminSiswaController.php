@@ -296,7 +296,6 @@
 	    | 
 	    */
 	    public function hook_after_add($id) {        
-
 	    }
 
 	    /* 
@@ -308,7 +307,7 @@
 	    | 
 	    */
 	    public function hook_before_edit(&$postdata,$id) {        
-	
+
 	    }
 
 	    /* 

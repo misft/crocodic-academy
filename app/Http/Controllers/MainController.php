@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Siswa;
 use crocodicstudio\crudbooster\helpers\CRUDBooster;
+use App\BidangSiswa;
+use Illuminate\Support\Facades\DB;
 
 class MainController extends Controller
 {
@@ -17,13 +19,19 @@ class MainController extends Controller
             'email' => $req -> email,
             'nama' => $req -> name,
             'password' => $req -> password,
-            'alamat' => 'test',
-            'id_sekolah' => '1',
-            'Kelas' => 'test',
-            'id_bidang' => '1',
-            'fakultas' => 'test'
+            'alamat' => $req -> alamat,
+            'id_sekolah' => $req -> sekolah,
+            'kelas' => $req -> kelas,
+            'birth' => $req -> tgl_lahir,
+            'hp' => $req -> nomor,
+            'id_bidang' => $req -> bidang,
+            'fakultas' => $req -> fakultas,
         ]);
-
+        $id = Siswa::max('id');
+        DB::table('bidang_siswa')->insert([
+            'id_bidang' => $req->bidang,
+            'id_siswa' => $id
+        ]);
         $data = [];
         CRUDBooster::sendEmail(['to'=>$req->email,'data'=>$data, 'template'=>'ApprovalEmailSend']);
 

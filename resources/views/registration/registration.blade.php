@@ -5,7 +5,7 @@
     @include('layout.head')
 </head>
 
-<body class="col container-fluid" style="background-image: url('/asset/01-background/bg_timeline.png')">
+<body class="col container-fluid" style="background-image: url('asset/01-background/bg_timeline.png')">
     <div class="row align-items-center justify-content-center">
         <div class="col-xl align-self-center justify-content-center jumbotron bg-white">
             <div>
@@ -14,44 +14,57 @@
                     asperiores natus, facere sint voluptatem quam amet praesentium aliquam neque. Deleniti distinctio
                     voluptates possimus neque ex.</p>
             </div>
-            <form class="mt-4" method="post" action="/register/insert">
+            <form class="mt-4" method="post" action="register/insert">
                 {{ csrf_field() }}
                 <div class="form-group">
                     <input id="" class="form-control" type="text" name="email" placeholder="Email">
                 </div>
                 <div class="form-group">
-                    <input id="" class="form-control" type="text" name="name" placeholder="Name" >
+                    <input id="" class="form-control" type="text" name="name" placeholder="Name">
                 </div>
                 <div class="form-group">
-                    <input id="" class="form-control" type="password" name="password" placeholder="Password" >
+                    <input id="" class="form-control" type="password" name="password" placeholder="Password">
                 </div>
                 <div class="form-group">
-                    <input id="" class="form-control" type="password" name="r-password" placeholder="Rewrite password" >
-                </div>
-                <div class="row form-group">
-                    <div class="col">
-                        <input id="" class="form-control" type="text" name="place_birth" placeholder="Place of birth" >
-                    </div>
-                    <div class="col">
-                        <input class="form-control" type="date" name="date_birth" id="" placeholder="Birth date" >
-                    </div>
+                    <input id="" class="form-control" type="password" name="r-password" placeholder="Rewrite password">
                 </div>
                 <div class="form-group">
-                    <input id="" class="form-control" type="text" name="school" placeholder="School" >
+                    <input class="form-control" type="date" name="tgl_lahir" id="" placeholder="Birth date">
+                </div>
+                <div class="form-group">
+                    <input id="" class="form-control" type="text" name="alamat" placeholder="Alamat">
+                </div>
+                <div class="form-group">
+                    <input id="" class="form-control" type="text" name="nomor">
+                </div>
+                <div class="form-group">
+                    <select class="form-control" name="sekolah">
+                        <option value="1">SMK N 11</option>
+                        <option value="2">SMK Wirakrama 1 Jepara</option>
+                        <option value="6">SMK N 3 Kendal</option>
+                        <option value="4">Daerah Semarang</option>
+                        <option value="5">Luar Semarang</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input id="" class="form-control" type="text" name="fakultas">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="kelas" placeholder="Kelas">
                 </div>
                 <fieldset>
-                    <div class="row"> 
+                    <div class="row">
                         <legend class="col-form-label col-sm-2 pt-0">Interest</legend>
                         <div class="col-sm-10">
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="interest" id="gridRadios1" value="1"
+                                <input class="form-check-input" type="radio" name="bidang" id="gridRadios1" value="1"
                                     checked>
                                 <label class="form-check-label" for="gridRadios1">
                                     Web Programmer
                                 </label>
                             </div>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="interest" id="gridRadios2" value="2">
+                                <input class="form-check-input" type="radio" name="bidang" id="gridRadios2" value="2">
                                 <label class="form-check-label" for="gridRadios2">
                                     Android Programmer
                                 </label>
