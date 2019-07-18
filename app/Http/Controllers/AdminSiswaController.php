@@ -308,9 +308,7 @@
 	    | 
 	    */
 	    public function hook_before_edit(&$postdata,$id) {        
-	        if ($postdata->approved == 0) {
-				$this->hook_before_edit($id);
-			}
+	
 	    }
 
 	    /* 
